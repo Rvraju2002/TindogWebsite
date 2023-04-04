@@ -180,5 +180,17 @@ em{
         position: static;
         transform: rotate(0);
     }
-    
+    .icon{
+        color: #ff4d67;
+    }
+    #testimonials {
+ 
+        background-color: #ff4d67; 
+      }
+      #press{
+        background-color: #ff4d67;
+    }
+    .top-card{
+        background-color: #ff4d67;
+    }
 }
