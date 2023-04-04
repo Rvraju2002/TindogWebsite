@@ -1,0 +1,184 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+}
+
+p{
+    color: #8f8f8f;
+}
+em{
+    
+    font-weight: bold;
+    font-size: 1rem;
+}
+/* Heading */
+.big-heading{
+  
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height:1.5;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Containers */
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* Sections */
+.color-section{
+    background-color:#ff4d67;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+/* navigation bar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight:bold ;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+}
+/* Donwload  buttons */
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title{
+    text-align: left;
+}
+#title .container-fluid {
+  padding:3% 15% 7%;
+}
+/* Title-image */
+.title-image {
+    width: 330px;
+    height: 650px;
+    transform: rotate(25deg);
+    position: absolute;
+
+}
+/* feature section */
+#features{
+ position: relative;
+}
+.feature-title{
+   font-size: 1.5rem; 
+}
+.feature-box{
+   
+    padding: 4.5%;
+}
+.icon{
+    color: #ef8172;
+    padding-bottom:1rem;
+}
+.icon:hover{
+    color:#ff4d67;
+}
+/* testimonials */
+
+#testimonials {
+ 
+  background-color: #ef8172; 
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+    width: 10%;
+    border-radius:100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+   
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin:20px 20px 15px;
+}
+/* Pricing Section */
+
+#pricing{
+    padding: 100px;
+    
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding:3% 2% ;
+}
+.top-card{
+    background-color: #f9ad8d;
+    padding: 5% 0 3%;
+    color: white;
+}
+.price-logo{
+    border-radius: 100%;
+    max-width: 30%;
+}
+.card-body{
+    background-color: #fffafa;
+}
+.buttons{
+    background-color: #8f8f8f;
+}
+/* Footer Section */
+
+.social-icon{
+    padding:20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1091px) {
+
+    #title .container-fluid {
+        text-align: center;
+        padding: 5% 15% 7%;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
